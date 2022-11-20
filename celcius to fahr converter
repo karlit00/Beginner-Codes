@@ -1,7 +1,8 @@
+//simply a celsius to fahrenheit program
+
 import java.util.*;
 public class Number1 {
 	public static void main(String args[]) {
-		//Page 69, Act 2.1
 	
 	Scanner convert = new Scanner(System.in);
 	double celsius,fahr;
