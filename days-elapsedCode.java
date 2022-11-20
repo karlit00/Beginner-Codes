@@ -1,3 +1,4 @@
+//a program that lets you find out the day elapsed after the day a user inputs
 import java.util.*;
 public class Number3 {
 	public static void main(String args[]) {
