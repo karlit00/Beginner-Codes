@@ -1,0 +1,18 @@
+import java.util.*;
+public class Number1 {
+	public static void main(String args[]) {
+		//Page 69, Act 2.1
+	
+	Scanner convert = new Scanner(System.in);
+	double celsius,fahr;
+	
+	System.out.println("Enter degree in celsius: ");
+	celsius= convert.nextDouble();
+	
+	fahr = (celsius * 1.8) + 32;
+	System.out.println(celsius + " Celsius is " + fahr + " Fahrenheit.");
+	
+	
+	}
+
+}
