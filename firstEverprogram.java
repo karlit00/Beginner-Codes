@@ -25,7 +25,7 @@ public class Log {
 		
 		if(username.equals(un) && password.equals(pw)){
 			System.out.println("Logged in! \n\n_________________________________________");
-			System.out.println("Welcome Marcus!\n");
+			System.out.println("Welcome User!\n");
 			System.out.println("[1] Play Rock,Paper,Scissor");
 			System.out.println("[2] Play Lotto");
 			
