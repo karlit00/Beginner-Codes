@@ -1,0 +1,82 @@
+//random outfit combination program
+
+import java.util.ArrayList;
+import java.util.Random;
+public class bro_train{
+	public static void main(String[]args) {
+		
+		ArrayList<String> outfit = new ArrayList<String>();
+		
+		ArrayList<String> top = new ArrayList();
+		top.add("t-shirt");
+		top.add("oversized sweater");
+		top.add("fitted sweater");
+		top.add("hoodie");
+		top.add("polo");
+		top.add("poloshirt");
+		
+		
+		ArrayList<String> layer = new ArrayList();
+		layer.add("flannel jacket");
+		layer.add("corduroy jacket");
+		layer.add("button down polo");
+		layer.add("windbreaker");
+		layer.add("none");
+		
+		
+		ArrayList<String> bottom = new ArrayList();
+		bottom.add("fitted jeans");
+		bottom.add("straight jeans");
+		bottom.add("cargo pants");
+		bottom.add("joggers");
+		bottom.add("sweatshort");
+		bottom.add("casual shorts");
+		
+		
+		ArrayList<String> footwear = new ArrayList();
+		footwear.add("crocs");
+		footwear.add("boots");
+		footwear.add("sneakers");
+		footwear.add("vans");
+		footwear.add("chuck taylors");
+		
+		System.out.println("-- Outfit Generator --\n");
+		System.out.println("Top:");
+		getRandomtop(top);
+		System.out.println("--------------------\nLayer with:");
+		getRandomlayer(layer);
+		System.out.println("--------------------\nBottom:");
+		getRandombottom(bottom);
+		System.out.println("--------------------\nFinish it with:");
+		getRandomfootwear(footwear);
+	}
+
+private static void getRandomtop(ArrayList<String> top) {
+		
+		int i =(int) (Math.random() * top.size());
+		
+		System.out.println(top.get(i));
+		
+	}	
+private static void getRandomlayer(ArrayList<String> layer) {
+	
+	int i =(int) (Math.random() * layer.size());
+	
+	System.out.println(layer.get(i));
+	
+}	
+private static void getRandombottom(ArrayList<String> bottom) {
+	
+	int i =(int) (Math.random() * bottom.size());
+	
+	System.out.println(bottom.get(i));
+	
+}	
+private static void getRandomfootwear(ArrayList<String> footwear) {
+	
+	int i =(int) (Math.random() * footwear.size());
+	
+	System.out.println(footwear.get(i));
+	
+	}	
+}
